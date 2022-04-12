@@ -2,8 +2,7 @@ body{
   font-family: 'Outfit', sans-serif;
   background-color: hsl(212, 45%, 89%);
   text-align: center;
-  width: 200px;
-  margin: 200px auto;
+
 
 
 }
@@ -13,9 +12,58 @@ h3{
   font-weight: bold;
   text-align: center;
   margin: 10px auto;
-  width: 80%;
 }
 p{
+  font-size: 15px;
+  text-align: center;
+  margin: auto;
+  color: hsl(220, 15%, 55%);
+}
+
+div{
+  position: relative;
+
+}
+.box{
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: auto;
+  margin-bottom: auto;
+  background-color: hsl(0, 0%, 100%);
+  border-radius: 15px;
+  position: absolute;
+  max-width: 350px;
+  max-height: 420px;
+  min-width: 250px;
+  top: 50%;
+  left:50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+  padding-bottom: 80px;
+
+}
+
+.qr{
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 15px;
+  max-width: 90%;
+  margin-top: 15px;
+  position: relative;
+  top:50%
+  left:50%
+
+}
+h3,p{
+  max-width: 250px;
+}
+
+.attribution{
+  position: absolute;
+  top: 96%;
+  left: 50%;
+}
+
   font-size: 15px;
   width: 85%;
   text-align: center;
